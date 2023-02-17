@@ -1,0 +1,22 @@
+.tag-span {
+  height: 30px;
+  min-width: 50px;
+  max-width: 170px;
+  border-radius: 10px;
+  background-color: #f3aa4e;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px;
+  color: #1a171d;
+}
+.each-todo-task {
+  height: 50px;
+  width: 100%;
+  background-color: #1a171d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}

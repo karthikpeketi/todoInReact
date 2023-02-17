@@ -1,0 +1,56 @@
+.tag-button {
+  color: #ffffff;
+  height: 28px;
+  min-width: 50px;
+  max-width: 100px;
+  border-radius: 10px;
+  border: 1px solid #f3aa4e;
+  background-color: transparent;
+  margin: 5px;
+  font-size: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.active-styling {
+  color: #ffffff;
+  height: 28px;
+  min-width: 50px;
+  max-width: 100px;
+  border-radius: 10px;
+  background-color: #f3aa4e;
+  margin: 5px;
+  font-size: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.tag-delete-container {
+  display: flex;
+  flex-direction: row;
+}
+.delete-button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete-icon {
+  margin-left: 20px;
+  padding-left: 5px;
+  font-size: 20px;
+  background-color: transparent;
+}
+.label {
+  width: 90%;
+  margin-left: 10px;
+}
+
+.task-text {
+  display: inline-block;
+}
+
+input[type='checkbox']:checked + label .task-text::before {
+  content: '';
+  display: block;
+  border-top: 1px solid black;
+}

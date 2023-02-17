@@ -1,0 +1,76 @@
+.create-task-heading {
+  color: #f3aa4e;
+  text-align: center;
+}
+.form-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 40vh;
+  width: 85%;
+}
+.label {
+  font-size: 16px;
+  color: #ffffff;
+}
+.input-element {
+  padding: 5px;
+  height: 34px;
+  width: 100%;
+  margin-top: -10px;
+  padding-left: 10px;
+  outline: none;
+  cursor: auto;
+}
+.add-task-button {
+  background-color: #f3aa4e; /* Green */
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  width: 80px;
+  height: 34px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.create-task-container {
+  background-color: #1a171d;
+  height: 100vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.tags-task-view-container {
+  height: 100vh;
+  width: 60vw;
+  background-color: #131213;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.tags-container {
+}
+.tags-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.tags-unordered-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
